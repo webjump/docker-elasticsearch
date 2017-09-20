@@ -1,4 +1,4 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch:2.4.6
+FROM elasticsearch:2.4.6
 
 #USER root
 RUN elasticsearch-plugin remove x-pack
